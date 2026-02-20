@@ -2,6 +2,10 @@
   "name": "ga2-1e353d",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
 
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+
   "customizations": {
     "vscode": {
       "extensions": [
@@ -11,5 +15,5 @@
     }
   },
 
-  "postCreateCommand": "pip install uv fastapi"
+  "postCreateCommand": "pip install uv fastapi || true"
 }
