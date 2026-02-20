@@ -15,5 +15,5 @@
     }
   },
 
-  "postCreateCommand": "pip install uv fastapi || true"
+  "postCreateCommand": "uv pip install fastapi || true"
 }
